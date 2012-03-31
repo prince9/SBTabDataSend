@@ -20,6 +20,7 @@
 		668402B81526C12600EC62D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668402B71526C12600EC62D9 /* SecondViewController.m */; };
 		668402BA1526C12600EC62D9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 668402B91526C12600EC62D9 /* second.png */; };
 		668402BC1526C12600EC62D9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668402BB1526C12600EC62D9 /* second@2x.png */; };
+		668402CB1526C76B00EC62D9 /* SBTabDataSendReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 668402CA1526C76B00EC62D9 /* SBTabDataSendReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +28,22 @@
 		6684029A1526C12500EC62D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6684029C1526C12500EC62D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6684029E1526C12500EC62D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		668402A21526C12600EC62D9 /* SBTabDataSend-Info.plist */ = {isa = PBXFileReference; path = "SBTabDataSend-Info.plist"; sourceTree = "<group>"; };
+		668402A21526C12600EC62D9 /* SBTabDataSend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBTabDataSend-Info.plist"; sourceTree = "<group>"; };
 		668402A41526C12600EC62D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		668402A61526C12600EC62D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		668402A81526C12600EC62D9 /* SBTabDataSend-Prefix.pch */ = {isa = PBXFileReference; path = "SBTabDataSend-Prefix.pch"; sourceTree = "<group>"; };
-		668402A91526C12600EC62D9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		668402A81526C12600EC62D9 /* SBTabDataSend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBTabDataSend-Prefix.pch"; sourceTree = "<group>"; };
+		668402A91526C12600EC62D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		668402AA1526C12600EC62D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		668402AD1526C12600EC62D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		668402AF1526C12600EC62D9 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		668402AF1526C12600EC62D9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		668402B01526C12600EC62D9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		668402B21526C12600EC62D9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		668402B41526C12600EC62D9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		668402B61526C12600EC62D9 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		668402B61526C12600EC62D9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		668402B71526C12600EC62D9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		668402B91526C12600EC62D9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		668402BB1526C12600EC62D9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		668402CA1526C76B00EC62D9 /* SBTabDataSendReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBTabDataSendReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		668402A01526C12500EC62D9 /* SBTabDataSend */ = {
 			isa = PBXGroup;
 			children = (
+				668402CA1526C76B00EC62D9 /* SBTabDataSendReadMe.txt */,
 				668402A91526C12600EC62D9 /* AppDelegate.h */,
 				668402AA1526C12600EC62D9 /* AppDelegate.m */,
 				668402AC1526C12600EC62D9 /* MainStoryboard.storyboard */,
@@ -171,6 +174,7 @@
 				668402B51526C12600EC62D9 /* first@2x.png in Resources */,
 				668402BA1526C12600EC62D9 /* second.png in Resources */,
 				668402BC1526C12600EC62D9 /* second@2x.png in Resources */,
+				668402CB1526C76B00EC62D9 /* SBTabDataSendReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				668402C11526C12600EC62D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
