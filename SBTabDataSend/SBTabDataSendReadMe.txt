@@ -4,8 +4,8 @@
 This has sent data to the next Tab using Storyboard.But data is not transmitted at the moment of changing to Tab, the button "dataSend" is pushed and data is transmitted. 
 
 
-1.Single View Applicationで新規プロジェクトを作る
-New project is made(Single View Application). 
+1.Tabbed Applicationで新規プロジェクトを作る
+New project is made(Tabbed Application). 
 
 2.FirstViewControllerとSecondViewControllerにUIパーツを設置する。データを送信するボタンを忘れずに(次のページへ行くボタンとは別に作ります)
 UIpart is arranged.
